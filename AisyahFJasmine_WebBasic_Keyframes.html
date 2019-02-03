@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>KEYFRAMES</title>
+<style>
+
+	body{
+	background: teal;
+	font-family: roboto;	
+	text-align: center;
+}
+
+.kotak{
+			width : 200px;
+			height: 200px;
+			background: skyblue;
+			border-radius: 20px;
+			margin-bottom: 1rem;
+			color: black;
+			padding: 1rem;
+			animation: animasi 2s ease-in .1s infinite;
+		}
+
+		@keyframes animasi{
+			from{
+				background: skyblue;
+			}
+			to{
+				background: violet;
+			}
+		}
+
+.bulat{
+			width : 100px;
+			height: 100px;
+			background: red;
+			border-radius: 100px;
+			margin-bottom: 1rem;
+			color: white;
+			padding: 1rem;
+			animation: ubahwarna 3s ease-in .5s infinite;
+		}
+
+		@keyframes ubahwarna{
+			from{
+				background: yellow;
+			}
+			to{
+				background: green;
+			}
+		}
+
+</style>
+</head>
+
+<body>
+
+	<h1>PRETEST WEB BASIC ANDROID</h1>
+	<h2>Keyframes by Aisyah Farisa Jasmine</h2>
+
+	<div class="kotak">I'm Changing!</div>
+	<div class="bulat">Me too!</div>
+
+</body>
+</html>
